@@ -4,7 +4,7 @@ A powerful web application that helps you track product prices across various e-
 
 ![A screenshot of the Streamlit app showing a list of tracked products with their price history charts](static/app-demo.png)
 
-See the products I am tracking via [this Streamlit app](https://automated-price-tracker.streamlit.app/).
+See the products I am tracking via [this Streamlit app](https://python-price-tracker.streamlit.app/).
 
 ## Features
 
@@ -45,14 +45,14 @@ Before you begin, ensure you have:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/BexTuychiev/automated-price-tracking.git
+git clone https://github.com/csjp/price_tracker.git
 cd automated-price-tracking
 ```
 
 2. Install Poetry (if not already installed):
 
 ```bash
-curl -sSL https://install.python-poetry.org | python3 -
+curl -sSL https://install.python-poetry.org | python -
 ```
 
 3. Install dependencies:
