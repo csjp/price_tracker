@@ -1,4 +1,4 @@
-# Automated Price Tracking
+# Automated Price Tracker
 
 A powerful web application that helps you track product prices across various e-commerce websites. Get notified via Discord when prices drop below your desired threshold! Perfect for deal hunters, online shoppers, and anyone looking to save money on their favorite products.
 
