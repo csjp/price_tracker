@@ -46,7 +46,7 @@ Before you begin, ensure you have:
 
 ```bash
 git clone https://github.com/csjp/price_tracker.git
-cd automated-price-tracking
+cd price_tracker
 ```
 
 2. Install Poetry (if not already installed):
@@ -74,7 +74,7 @@ POSTGRES_URL=your_postgres_url # Optional, SQLite used by default
 
 The app sends notifications to your private Discord server via a webhook if any of the tracked items' price drops below the `PRICE_DROP_THRESHOLD`. Instructions on how to get a Discord webhook URL are below.
 
-Optionally, you can set up a [free Supabase Postgres instance](supabase.com) for free. I highly recommend this step because the local SQLite database will be wiped if you deploy the app to cloud platforms like Streamlit Cloud or Heroku.
+Optionally, you can set up a [free Neon Postgres instance](https://neon.tech) for free. I highly recommend this step because the local SQLite database will be wiped if you deploy the app to cloud platforms like Streamlit Cloud or Heroku.
 
 ## Usage
 
@@ -224,7 +224,7 @@ Before you begin, ensure you have:
 
 ```bash
 git clone https://github.com/csjp/price_tracker.git
-cd automated-price-tracking
+cd price_tracker
 ```
 
 2. Install Poetry (if not already installed):
@@ -252,7 +252,7 @@ POSTGRES_URL=your_postgres_url # Optional, SQLite used by default
 
 The app sends notifications to your private Discord server via a webhook if any of the tracked items' price drops below the `PRICE_DROP_THRESHOLD`. Instructions on how to get a Discord webhook URL are below.
 
-Optionally, you can set up a [free Supabase Postgres instance](supabase.com) for free. I highly recommend this step because the local SQLite database will be wiped if you deploy the app to cloud platforms like Streamlit Cloud or Heroku.
+Optionally, you can set up a [free Neon Postgres instance](https://neon.tech) for free. I highly recommend this step because the local SQLite database will be wiped if you deploy the app to cloud platforms like Streamlit Cloud or Heroku.
 
 ## Usage
 
