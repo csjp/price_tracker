@@ -128,7 +128,7 @@ The GitHub Actions workflow will continue to run price checks automatically in y
 ### Project Structure
 
 ```bash
-automated-price-tracking/
+price_tracker/
 ├── src/
 │ ├── domain/ # Domain models and business logic
 │ ├── infrastructure/ # Database and external services
