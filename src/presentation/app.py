@@ -21,11 +21,11 @@ def init_services():
 
 
 def render_dashboard(product_service: ProductService, price_service: PriceService):
-    st.title("Price Tracker Dashboard")
+    st.title("Automated Price Tracker Dashboard")
 
     # Give a brief info about the app
     st.markdown(
-        """##### Track product prices across e-commerce sites and get Discord notifications when prices drop. See setup instructions in the [GitHub repo](https://github.com/BexTuychiev/automated-price-tracking). View my tracked products below.
+        """##### Track product prices across e-commerce sites and get Discord notifications when prices drop. See setup instructions in the [GitHub repo](https://github.com/csjp/price_tracker). View my tracked products below.
         """
     )
 
